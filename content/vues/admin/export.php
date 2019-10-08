@@ -1,0 +1,335 @@
+<?php 
+ini_set('memory_limit', '-1'); 
+include($_SERVER['DOCUMENT_ROOT'].'/content/lib/PHPExcel.php');
+include($_SERVER['DOCUMENT_ROOT'].'/content/config.php');
+$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
+$bdd = new PDO('mysql:host='.$server_ip.';dbname='.$server_database, $server_user, $server_password, $pdo_options) or die( mysql_error() );
+$req = $bdd->query("select * from contact_indirect order by id desc limit 10000,2000");
+$sheet = new PHPExcel();
+$activesheet = $sheet->getActiveSheet();
+$activesheet->setCellValue('D1', 'Civilite');
+$activesheet->setCellValue('B1', 'Id');
+$activesheet->setCellValue('C1', 'id_contact');
+$activesheet->setCellValue('E1', 'Nom');
+$activesheet->setCellValue('F1', 'Prenom');
+$activesheet->setCellValue('G1', 'Tel');
+$activesheet->setCellValue('H1', 'E-Mail');
+$activesheet->setCellValue('I1', 'professionpere');
+$activesheet->setCellValue('J1', 'professionmere');
+$activesheet->setCellValue('K1', 'Mail_Mere');
+$activesheet->setCellValue('L1', 'Mail_Pere');
+$activesheet->setCellValue('M1', 'Tel_Mere');
+$activesheet->setCellValue('N1', 'Tel_Pere');
+$activesheet->setCellValue('O1', 'Annee_Etude');
+$activesheet->setCellValue('P1', 'Ville_Lycee');
+$activesheet->setCellValue('Q1', 'Branche');
+$activesheet->setCellValue('R1', 'Date_Saisie');
+$activesheet->setCellValue('S1', 'Observation chef de prduit');
+$activesheet->setCellValue('T1', 'Date_de_Naissance');
+$activesheet->setCellValue('U1', 'Experience Prpfessionnelle');
+$activesheet->setCellValue('V1', 'Formation');
+$activesheet->setCellValue('W1', 'GSM');
+$activesheet->setCellValue('X1', 'Lieu_de_Naissance');
+$activesheet->setCellValue('Y1', 'Adresse');
+$activesheet->setCellValue('Z1', 'Formation_Demmandee');
+$activesheet->setCellValue('AA1', 'Nature_de_Contact');
+$activesheet->setCellValue('AB1', 'Zone');
+$activesheet->setCellValue('AC1', 'Ville');
+$activesheet->setCellValue('AD1', 'Marche');
+$activesheet->setCellValue('AE1', 'Groupe_Formation');
+$activesheet->setCellValue('AF1', 'Statut_contact');
+$activesheet->setCellValue('AG1', 'CP');
+$activesheet->setCellValue('AH1', 'Niveau_des_etudes');
+$activesheet->setCellValue('AI1', 'Diplomes_obtenus');
+$activesheet->setCellValue('AJ1', 'Etablissement');
+$activesheet->setCellValue('AK1', 'Anne_obtention');
+$activesheet->setCellValue('AL1', 'Sourec_contact');
+$activesheet->setCellValue('AM1', 'Categorie');
+$activesheet->setCellValue('AN1', 'Operateur_saisie');
+$activesheet->setCellValue('AO1', 'Recu_par');
+$activesheet->setCellValue('AP1', 'observation');
+$activesheet->setCellValue('AQ1', 'Lycee_public');
+$activesheet->setCellValue('AR1', 'Lycee_privee');
+$activesheet->setCellValue('AS1', 'Lycee_mission');
+$activesheet->setCellValue('AT1', 'pays');
+$activesheet->setCellValue('AU1', 'etat dossier');
+$activesheet->setCellValue('AV1', 'Etape_phoning1');
+$activesheet->setCellValue('AW1', 'Etape_phoning2');
+$activesheet->setCellValue('AX1', 'Etape_phoning3');
+$activesheet->setCellValue('AY1', 'Etape_phoning4');
+$activesheet->setCellValue('AZ1', 'Etape_phoning5');
+$activesheet->setCellValue('BA1', 'Etape_phoning');
+$activesheet->setCellValue('BB1', 'Date_phoning1');
+$activesheet->setCellValue('BC1', 'Date_phoning2');
+$activesheet->setCellValue('BD1', 'Date_phoning3');
+$activesheet->setCellValue('BE1', 'Date_phoning4');
+$activesheet->setCellValue('BF1', 'Date_phoning5');
+$activesheet->setCellValue('BG1', 'Date_dern_phoning');
+$activesheet->setCellValue('BH1', 'Dern_compagne');
+$activesheet->setCellValue('BI1', 'TA');
+$activesheet->setCellValue('BJ1', 'EmailPhoning');
+$activesheet->setCellValue('BK1', 'Etape_phoning6');
+$activesheet->setCellValue('BL1', 'Etape_phoning7');
+$activesheet->setCellValue('BM1', 'Etape_phoning8');
+$activesheet->setCellValue('BN1', 'Etape_phoning9');
+$activesheet->setCellValue('BO1', 'Etape_phoning10');
+$activesheet->setCellValue('BP1', 'Date_Phoning6');
+$activesheet->setCellValue('BQ1', 'Date_Phoning7');
+$activesheet->setCellValue('BR1', 'Date_Phoning8');
+$activesheet->setCellValue('BS1', 'Date_Phoning9');
+$activesheet->setCellValue('BT1', 'Date_Phoning10');
+
+$activesheet->setCellValue('BU1', 'TA1');
+$activesheet->setCellValue('BV1', 'TA2');
+$activesheet->setCellValue('BW1', 'TA3');
+$activesheet->setCellValue('BX1', 'TA4');
+$activesheet->setCellValue('BY1', 'TA5');
+$activesheet->setCellValue('BZ1', 'TA6');
+$activesheet->setCellValue('CA1', 'TA7');
+$activesheet->setCellValue('CB1', 'TA8');
+$activesheet->setCellValue('CC1', 'TA9');
+$activesheet->setCellValue('CD1', 'TA10');
+$activesheet->setCellValue('CE1', 'Campane1');
+$activesheet->setCellValue('CF1', 'Campane2');
+$activesheet->setCellValue('CG1', 'Campane3');
+$activesheet->setCellValue('CH1', 'Campane4');
+$activesheet->setCellValue('CI1', 'Campane5');
+$activesheet->setCellValue('CJ1', 'Campane6');
+$activesheet->setCellValue('CK1', 'Campane7');
+$activesheet->setCellValue('CL1', 'Campane8');
+$activesheet->setCellValue('CM1', 'Campane9');
+$activesheet->setCellValue('CN1', 'Campane10');
+
+
+$activesheet->setCellValue('CO1', 'Script1');
+$activesheet->setCellValue('CP1', 'Script2');
+$activesheet->setCellValue('CQ1', 'Script3');
+$activesheet->setCellValue('CR1', 'Script4');
+$activesheet->setCellValue('CS1', 'Script5');
+$activesheet->setCellValue('CT1', 'Script6');
+$activesheet->setCellValue('CU1', 'Script7');
+$activesheet->setCellValue('CV1', 'Script8');
+$activesheet->setCellValue('CW1', 'Script9');
+$activesheet->setCellValue('CX1', 'Script10');
+
+$activesheet->setCellValue('CY1', 'valide');
+$activesheet->setCellValue('CZ1', 'nTel');
+$activesheet->setCellValue('DA1', 'Exp');
+$activesheet->setCellValue('DB1', 'TypeExp');
+$activesheet->setCellValue('DC1', 'Email1');
+$activesheet->setCellValue('DD1', 'Email2');
+$activesheet->setCellValue('DE1', 'Email3');
+$activesheet->setCellValue('DF1', 'Email4');
+$activesheet->setCellValue('DG1', 'Email5');
+$activesheet->setCellValue('DH1', 'Email6');
+$activesheet->setCellValue('DI1', 'Email7');
+$activesheet->setCellValue('DJ1', 'Email8');
+$activesheet->setCellValue('DK1', 'Email9');
+$activesheet->setCellValue('DL1', 'Email10');
+$activesheet->setCellValue('DM1', 'Date');
+$activesheet->setCellValue('DN1', 'Heure_Saisie');
+$activesheet->setCellValue('DO1', 'Transfer_CD');
+$activesheet->setCellValue('DP1', 'A_ne_pas_filtre');
+$activesheet->setCellValue('DQ1', 'Abandon');
+$activesheet->setCellValue('DR1', 'Interesse_par');
+$activesheet->setCellValue('DS1', 'Lycee');
+$activesheet->setCellValue('DT1', 'sync');
+$activesheet->setCellValue('DU1', 'Nouveau');
+$activesheet->setCellValue('DV1', 'centre');
+
+
+///////
+$activesheet->setCellValue('DW1', 'ualification1');
+$activesheet->setCellValue('DX1', 'ualification2');
+$activesheet->setCellValue('DY1', 'ualification3');
+$activesheet->setCellValue('DZ1', 'ualification4');
+$activesheet->setCellValue('EA1', 'ualification5');
+$activesheet->setCellValue('EB1', 'ualification6');
+$activesheet->setCellValue('EC1', 'ualification7');
+$activesheet->setCellValue('ED1', 'ualification8');
+$activesheet->setCellValue('EE1', 'ualification9');
+$activesheet->setCellValue('EF1', 'ualification10');
+
+$activesheet->setCellValue('EG1', 'object1');
+$activesheet->setCellValue('EH1', 'object2');
+$activesheet->setCellValue('EI1', 'object3');
+$activesheet->setCellValue('EJ1', 'object4');
+$activesheet->setCellValue('EK1', 'object5');
+$activesheet->setCellValue('EL1', 'object6');
+$activesheet->setCellValue('EM1', 'object7');
+$activesheet->setCellValue('EN1', 'object8');
+$activesheet->setCellValue('EO1', 'object9');
+$activesheet->setCellValue('EP1', 'object10');
+
+
+
+
+
+
+
+
+
+
+$pos = 1;
+while ($data = $req->fetch()) {
+    $pos++;
+
+    $activesheet->setCellValue('D'.$pos ,$data['Civilite']);
+    $activesheet->setCellValue('B'.$pos, $data['id']);
+    $activesheet->setCellValue('C'.$pos, null);
+    $activesheet->setCellValue('E'.$pos, $data['Nom']);
+    $activesheet->setCellValue('F'.$pos, $data['Prenom']);
+    $activesheet->setCellValue('G'.$pos, $data['Tel']);
+    $activesheet->setCellValue('H'.$pos, $data['E-Mail']);
+    $activesheet->setCellValue('I'.$pos, $data['Profession_Pere']);
+    $activesheet->setCellValue('J'.$pos, $data['Profession_Mere']);
+    $activesheet->setCellValue('K'.$pos, $data['Mail_Mere']);
+    $activesheet->setCellValue('L'.$pos, $data['Mail_Pere']);
+    $activesheet->setCellValue('M'.$pos, $data['Tel_Mere']);
+    $activesheet->setCellValue('N'.$pos, $data['Tel_Pere']);
+    $activesheet->setCellValue('O'.$pos, $data['Annee_Etude']);
+    $activesheet->setCellValue('P'.$pos, $data['Ville_Lycee']);
+    $activesheet->setCellValue('Q'.$pos, $data['Branche']);
+    $activesheet->setCellValue('R'.$pos, $data['Date_Saisie']);
+    $activesheet->setCellValue('S'.$pos, $data['Observation_Chef_de_produit']);
+    $activesheet->setCellValue('T'.$pos, $data['Date_de_Naissance']);
+    $activesheet->setCellValue('U'.$pos, $data['Experience_professionelle']);
+    $activesheet->setCellValue('V'.$pos, $data['Formation']);
+    $activesheet->setCellValue('W'.$pos, $data['GSM']);
+    $activesheet->setCellValue('X'.$pos, $data['Lieu_de_Naissance']);
+    $activesheet->setCellValue('Y'.$pos, $data['Adresse']);
+    $activesheet->setCellValue('Z'.$pos, $data['Formation_Demmandee']);
+    $activesheet->setCellValue('AA'.$pos, $data['Nature_de_Contact']);
+    $activesheet->setCellValue('AB'.$pos, $data['Zone']);
+    $activesheet->setCellValue('AC'.$pos, $data['Ville']);
+    $activesheet->setCellValue('AD'.$pos, $data['Marche']);
+    $activesheet->setCellValue('AE'.$pos, $data['Groupe_Formation']);
+    $activesheet->setCellValue('AF'.$pos, $data['StatutContact']);
+    $activesheet->setCellValue('AG'.$pos, $data['CP']);
+    $activesheet->setCellValue('AH'.$pos, $data['Niveau_des_etudes']);
+    $activesheet->setCellValue('AI'.$pos, $data['Diplome_Obtenu']);
+    $activesheet->setCellValue('AJ'.$pos, $data['Etablissement']);
+    $activesheet->setCellValue('AK'.$pos, $data['Annee_Obtention']);
+    $activesheet->setCellValue('AL'.$pos, $data['Source_Contact']);
+    $activesheet->setCellValue('AM'.$pos, $data['Categorie']);
+    $activesheet->setCellValue('AN'.$pos, $data['Operateur_Saisie']);
+    $activesheet->setCellValue('AO'.$pos, $data['Reçu_par']);
+    $activesheet->setCellValue('AP'.$pos, $data['Observations']);
+    $activesheet->setCellValue('AQ'.$pos, $data['Lycee_Public']);
+    $activesheet->setCellValue('AR'.$pos, $data['Lycee_Prive']);
+    $activesheet->setCellValue('AS'.$pos, $data['Lycee_Mission']);
+    $activesheet->setCellValue('AT'.$pos, null);
+    $activesheet->setCellValue('AU'.$pos, null);
+    $activesheet->setCellValue('AV'.$pos, $data['Etape_Phoning1']);
+    $activesheet->setCellValue('AW'.$pos, $data['Etape_Phoning2']);
+    $activesheet->setCellValue('AX'.$pos, $data['Etape_Phoning3']);
+    $activesheet->setCellValue('AY'.$pos, $data['Etape_Phoning4']);
+    $activesheet->setCellValue('AZ'.$pos, $data['Etape_Phoning5']);
+    $activesheet->setCellValue('BA'.$pos, $data['Etape_Phoning']);
+    $activesheet->setCellValue('BB'.$pos, $data['Date_Phoning1']);
+    $activesheet->setCellValue('BC'.$pos, $data['Date_Phoning2']);
+    $activesheet->setCellValue('BD'.$pos, $data['Date_Phoning3']);
+    $activesheet->setCellValue('BE'.$pos, $data['Date_Phoning4']);
+    $activesheet->setCellValue('BF'.$pos, $data['Date_Phoning5']);
+    $activesheet->setCellValue('BG'.$pos, $data['Date_Dern_Phoning']);
+    $activesheet->setCellValue('BH'.$pos, $data['Dern_Campagne']);
+    $activesheet->setCellValue('BI'.$pos, $data['TA']);
+    $activesheet->setCellValue('BJ'.$pos, $data['E-mail-Phoning']);
+    $activesheet->setCellValue('BK'.$pos, $data['Etape_Phoning6']);
+    $activesheet->setCellValue('BL'.$pos, $data['Etape_Phoning7']);
+    $activesheet->setCellValue('BM'.$pos, $data['Etape_Phoning8']);
+    $activesheet->setCellValue('BN'.$pos, $data['Etape_Phoning9']);
+    $activesheet->setCellValue('BO'.$pos, $data['Etape_Phoning10']);
+    $activesheet->setCellValue('BP'.$pos, $data['Date_Phoning6']);
+    $activesheet->setCellValue('BQ'.$pos, $data['Date_Phoning7']);
+    $activesheet->setCellValue('BR'.$pos, $data['Date_Phoning8']);
+    $activesheet->setCellValue('BS'.$pos, $data['Date_Phoning9']);
+    $activesheet->setCellValue('BT'.$pos, $data['Date_Phoning10']);
+
+    $activesheet->setCellValue('BU'.$pos, $data['TA1']);
+    $activesheet->setCellValue('BV'.$pos, $data['TA2']);
+    $activesheet->setCellValue('BW'.$pos, $data['TA3']);
+    $activesheet->setCellValue('BX'.$pos, $data['TA4']);
+    $activesheet->setCellValue('BY'.$pos, $data['TA5']);
+    $activesheet->setCellValue('BZ'.$pos, $data['TA6']);
+    $activesheet->setCellValue('CA'.$pos, $data['TA7']);
+    $activesheet->setCellValue('CB'.$pos, $data['TA8']);
+    $activesheet->setCellValue('CC'.$pos, $data['TA9']);
+    $activesheet->setCellValue('CD'.$pos, $data['TA10']);
+    $activesheet->setCellValue('CE'.$pos, $data['Campagne1']);
+    $activesheet->setCellValue('CF'.$pos, $data['Campagne2']);
+    $activesheet->setCellValue('CG'.$pos, $data['Campagne3']);
+    $activesheet->setCellValue('CH'.$pos, $data['Campagne4']);
+    $activesheet->setCellValue('CI'.$pos, $data['Campagne5']);
+    $activesheet->setCellValue('CJ'.$pos, $data['Campagne6']);
+    $activesheet->setCellValue('CK'.$pos, $data['Campagne7']);
+    $activesheet->setCellValue('CL'.$pos, $data['Campagne8']);
+    $activesheet->setCellValue('CM'.$pos, $data['Campagne9']);
+    $activesheet->setCellValue('CN'.$pos, $data['Campagne10']);
+
+
+    $activesheet->setCellValue('CO'.$pos, $data['script1']);
+    $activesheet->setCellValue('CP'.$pos, $data['script2']);
+    $activesheet->setCellValue('CQ'.$pos, $data['script3']);
+    $activesheet->setCellValue('CR'.$pos, $data['script4']);
+    $activesheet->setCellValue('CS'.$pos, $data['script5']);
+    $activesheet->setCellValue('CT'.$pos, $data['script6']);
+    $activesheet->setCellValue('CU'.$pos, $data['script7']);
+    $activesheet->setCellValue('CV'.$pos, $data['script8']);
+    $activesheet->setCellValue('CW'.$pos, $data['script9']);
+    $activesheet->setCellValue('CX'.$pos, $data['script10']);
+
+    $activesheet->setCellValue('CY'.$pos, $data['valide']);
+    $activesheet->setCellValue('CZ'.$pos, $data['Ntel']);
+    $activesheet->setCellValue('DA'.$pos, $data['Exp']);
+    $activesheet->setCellValue('DB'.$pos, $data['TypeExp']);
+    $activesheet->setCellValue('DC'.$pos, $data['email1']);
+    $activesheet->setCellValue('DD'.$pos, $data['email2']);
+    $activesheet->setCellValue('DE'.$pos, $data['email3']);
+    $activesheet->setCellValue('DF'.$pos, $data['email4']);
+    $activesheet->setCellValue('DG'.$pos, $data['email5']);
+    $activesheet->setCellValue('DH'.$pos, $data['email6']);
+    $activesheet->setCellValue('DI'.$pos, $data['email7']);
+    $activesheet->setCellValue('DJ'.$pos, $data['email8']);
+    $activesheet->setCellValue('DK'.$pos, $data['email9']);
+    $activesheet->setCellValue('DL'.$pos, $data['email10']);
+    $activesheet->setCellValue('DM'.$pos, $data['Date']);
+    $activesheet->setCellValue('DN'.$pos, $data['Heure_Saisie']);
+    $activesheet->setCellValue('DO'.$pos, $data['Transfert_CD']);
+    $activesheet->setCellValue('DP'.$pos, $data['A_ne_pas_filtrer']);
+    $activesheet->setCellValue('DQ'.$pos, $data['Abandon']);
+    $activesheet->setCellValue('DR'.$pos, $data['Interesse_Par']);
+    $activesheet->setCellValue('DS'.$pos, $data['Lycee']);
+    $activesheet->setCellValue('DT'.$pos,null);
+    $activesheet->setCellValue('DU'.$pos, null);
+    $activesheet->setCellValue('DV'.$pos, $data['centre']);
+
+
+    ///////
+    $activesheet->setCellValue('DW'.$pos, $data['qualificatio1']);
+    $activesheet->setCellValue('DX'.$pos, $data['qualificatio2']);
+    $activesheet->setCellValue('DY'.$pos, $data['qualificatio3']);
+    $activesheet->setCellValue('DZ'.$pos, $data['qualificatio4']);
+    $activesheet->setCellValue('EA'.$pos, $data['qualificatio5']);
+    $activesheet->setCellValue('EB'.$pos, $data['qualificatio6']);
+    $activesheet->setCellValue('EC'.$pos, $data['qualificatio7']);
+    $activesheet->setCellValue('ED'.$pos, $data['qualificatio8']);
+    $activesheet->setCellValue('EE'.$pos, $data['qualificatio9']);
+    $activesheet->setCellValue('EF'.$pos, $data['qualificatio10']);
+
+    $activesheet->setCellValue('EG'.$pos, $data['object1']);
+    $activesheet->setCellValue('EH'.$pos, $data['object2']);
+    $activesheet->setCellValue('EI'.$pos, $data['object3']);
+    $activesheet->setCellValue('EJ'.$pos, $data['object4']);
+    $activesheet->setCellValue('EK'.$pos, $data['object5']);
+    $activesheet->setCellValue('EL'.$pos, $data['object6']);
+    $activesheet->setCellValue('EM'.$pos, $data['object7']);
+    $activesheet->setCellValue('EN'.$pos, $data['object8']);
+    $activesheet->setCellValue('EO'.$pos, $data['object9']);
+    $activesheet->setCellValue('EP'.$pos, $data['object10']);
+
+}
+$objWriter = PHPExcel_IOFactory::createWriter($sheet, 'Excel2007');
+$file = "export" . date('Y-m-d-i-h-s') . date('exp') . ".xlsx";
+$objWriter->save($file);
+?>

@@ -1,0 +1,2 @@
+[16-Feb-2017 11:37:49 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 11:37:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/config.php on line 9

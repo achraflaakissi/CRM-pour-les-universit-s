@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\sip]
+"EditFlags"=hex:02,00,00,00 
+@="URL:Sip Protocol"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\sip\shell]
+[HKEY_CLASSES_ROOT\sip\shell\open]
+[HKEY_CLASSES_ROOT\sip\shell\open\command]
+@="\"C:\\Program Files\\CounterPath\\eyeBeam 1.5\\eyeBeam.exe\" -dial=\"%1\""

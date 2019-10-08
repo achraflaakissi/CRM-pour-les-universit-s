@@ -1,0 +1,216 @@
+[14-Feb-2017 10:03:13 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/read1.php on line 2
+[14-Feb-2017 10:03:13 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/read1.php on line 2
+[14-Feb-2017 10:03:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/read1.php:4
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/read1.php(4): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/read1.php on line 4
+[14-Feb-2017 10:03:26 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/read1.php on line 2
+[14-Feb-2017 10:03:26 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/read1.php on line 2
+[14-Feb-2017 10:03:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/read1.php:4
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/read1.php(4): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/read1.php on line 4
+[14-Feb-2017 10:03:44 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/read1.php on line 2
+[14-Feb-2017 10:03:44 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/read1.php on line 2
+[14-Feb-2017 10:03:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/read1.php:4
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/read1.php(4): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/read1.php on line 4
+[15-Feb-2017 17:16:54 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:16:54 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:16:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php:2025
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php(2025): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(65): contact_indirecte->supprimercontact('40')
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2025
+[15-Feb-2017 17:16:55 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:16:55 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:16:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php:2025
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php(2025): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(65): contact_indirecte->supprimercontact('40')
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2025
+[15-Feb-2017 17:16:59 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:16:59 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:16:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php:2025
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php(2025): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(65): contact_indirecte->supprimercontact('41')
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2025
+[15-Feb-2017 17:17:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/read1.php:4
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/read1.php(4): PDO->__construct('mysql:host=loca...', 'root', NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/read1.php on line 4
+[15-Feb-2017 17:20:59 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/config.php on line 9
+[15-Feb-2017 17:20:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/config.php on line 9
+[15-Feb-2017 17:22:27 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:22:27 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:22:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php:2025
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php(2025): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(65): contact_indirecte->supprimercontact('40')
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2025
+[15-Feb-2017 17:22:28 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:22:28 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 17:22:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php:2025
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php(2025): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(65): contact_indirecte->supprimercontact('40')
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2025
+[15-Feb-2017 17:24:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php:2024
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php(2024): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(65): contact_indirecte->supprimercontact('40')
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2024
+[15-Feb-2017 17:24:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php:2024
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php(2024): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(65): contact_indirecte->supprimercontact('40')
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2024
+[15-Feb-2017 17:28:03 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php on line 2272
+[15-Feb-2017 17:28:03 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php on line 2272
+[15-Feb-2017 17:28:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php:2274
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php(2274): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(67): ContactDirect->supprimercontact(NULL)
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php on line 2274
+[15-Feb-2017 22:58:19 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 22:58:19 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2023
+[15-Feb-2017 22:58:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php:2025
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php(2025): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(65): contact_indirecte->supprimercontact('41')
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2025
+[15-Feb-2017 22:58:31 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2013
+[15-Feb-2017 22:58:31 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2013
+[15-Feb-2017 22:58:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php:2015
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php(2015): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(56): contact_indirecte->Validercontactindirect()
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-indirecte.php on line 2015
+[16-Feb-2017 14:12:13 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:12:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:12:14 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:12:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:12:24 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:12:24 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:12:33 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:12:33 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:20:12 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:20:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/config.php on line 9
+[16-Feb-2017 14:24:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php on line 2270
+[16-Feb-2017 14:24:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php on line 2272
+[16-Feb-2017 14:34:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php on line 2273
+[16-Feb-2017 14:45:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php:2273
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php(2273): PDO->query('DELETE FROM `co...')
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(67): ContactDirect->supprimercontact(NULL)
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php on line 2273
+[16-Feb-2017 14:45:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php:2273
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php(2273): PDO->query('DELETE FROM `co...')
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(67): ContactDirect->supprimercontact(NULL)
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php on line 2273
+[16-Feb-2017 14:45:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php:2273
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php(2273): PDO->query('DELETE FROM `co...')
+#1 /home/myupmupm/public_html/crm/content/controller/read.php(67): ContactDirect->supprimercontact(NULL)
+#2 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/class.contact-direct.php on line 2273
+[16-Feb-2017 14:57:41 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myupmupm/public_html/crm/content/controller/read.php on line 62
+[16-Feb-2017 14:59:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myupmupm/public_html/crm/content/controller/read.php on line 62
+[18-Feb-2017 07:18:46 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 2
+[18-Feb-2017 07:18:46 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 2
+[18-Feb-2017 07:18:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:4
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(4): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 4
+[18-Feb-2017 07:18:53 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 2
+[18-Feb-2017 07:18:53 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 2
+[18-Feb-2017 07:18:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:4
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(4): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 4
+[01-Mar-2017 15:52:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1' in /home/myupmupm/public_html/crm/content/controller/read1.php:25
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/read1.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/read1.php on line 25
+[26-Apr-2017 15:03:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('testrachid')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 150
+[26-Apr-2017 15:03:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('testrachid')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 150
+[26-Apr-2017 15:03:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('testrachid')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 150
+[26-Apr-2017 15:03:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('testrachid')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 150
+[26-Apr-2017 15:05:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('adasdasd')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 150
+[26-Apr-2017 15:09:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('test rachid conact nature')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 150
+[26-Apr-2017 15:14:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('test nature')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 150
+[26-Apr-2017 15:19:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('test nature')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 150
+[26-Apr-2017 15:22:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('test nature contact')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:155
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(155): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 155
+[26-Apr-2017 15:26:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('rachid test nature')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:153
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(153): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 153
+[26-Apr-2017 15:27:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('rachid test nature')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:153
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(153): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 153
+[26-Apr-2017 15:30:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') VALUES ('suitea testt')' at line 1' in /home/myupmupm/public_html/crm/content/controller/scriptajout.php:163
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/controller/scriptajout.php(163): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/controller/scriptajout.php on line 163

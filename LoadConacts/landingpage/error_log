@@ -1,0 +1,7 @@
+[17-Jun-2017 10:51:21 UTC] PHP Fatal error:  Call to undefined function ni_set() in /home/myupmupm/public_html/crm/LoadConacts/landingpage/update.php on line 3
+[17-Jun-2017 10:52:14 UTC] PHP Fatal error:  Call to undefined function ni_set() in /home/myupmupm/public_html/crm/LoadConacts/landingpage/update.php on line 3
+[17-Jun-2017 10:52:18 UTC] PHP Fatal error:  Call to undefined function ni_set() in /home/myupmupm/public_html/crm/LoadConacts/landingpage/update.php on line 3
+[30-Jun-2017 11:03:35 UTC] PHP Fatal error:  Call to undefined method PDOStatistique::update() in /home/myupmupm/public_html/crm/LoadConacts/landingpage/update.php on line 9
+[30-Jun-2017 11:40:31 UTC] PHP Fatal error:  Call to undefined method PDOStatistique::update() in /home/myupmupm/public_html/crm/LoadConacts/landingpage/update.php on line 9
+[01-Jul-2017 07:56:04 UTC] PHP Fatal error:  Call to undefined method PDOStatistique::update() in /home/myupmupm/public_html/crm/LoadConacts/landingpage/update.php on line 9
+[01-Jul-2017 07:57:15 UTC] PHP Fatal error:  Call to undefined method PDOStatistique::update() in /home/myupmupm/public_html/crm/LoadConacts/landingpage/update.php on line 9

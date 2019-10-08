@@ -1,0 +1,42 @@
+[16-Feb-2017 11:38:31 UTC] PHP Warning:  include(content/modules/sidebar-inc.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 55
+[16-Feb-2017 11:38:31 UTC] PHP Warning:  include(): Failed opening 'content/modules/sidebar-inc.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 55
+[16-Feb-2017 11:38:31 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 125
+[16-Feb-2017 11:38:31 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 125
+[16-Feb-2017 11:38:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php:127
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php(127): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 127
+[16-Feb-2017 11:38:37 UTC] PHP Warning:  include(content/modules/sidebar-inc.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 55
+[16-Feb-2017 11:38:37 UTC] PHP Warning:  include(): Failed opening 'content/modules/sidebar-inc.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 55
+[16-Feb-2017 11:38:37 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 125
+[16-Feb-2017 11:38:37 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 125
+[16-Feb-2017 11:38:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php:127
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php(127): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/vues/admin/admin-gestionutilisateur-vue.php on line 127
+[17-Mar-2017 08:11:27 UTC] PHP Warning:  include(content/lib/PHPExcel.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 1
+[17-Mar-2017 08:11:27 UTC] PHP Warning:  include(): Failed opening 'content/lib/PHPExcel.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 1
+[17-Mar-2017 08:11:27 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 2
+[17-Mar-2017 08:11:27 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 2
+[17-Mar-2017 08:11:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/content/vues/admin/export.php:4
+Stack trace:
+#0 /home/myupmupm/public_html/crm/content/vues/admin/export.php(4): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 4
+[17-Mar-2017 08:13:20 UTC] PHP Warning:  include(content/lib/PHPExcel.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 1
+[17-Mar-2017 08:13:20 UTC] PHP Warning:  include(): Failed opening 'content/lib/PHPExcel.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 1
+[17-Mar-2017 08:13:20 UTC] PHP Fatal error:  Class 'PHPExcel' not found in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 7
+[17-Mar-2017 08:14:38 UTC] PHP Warning:  include(biblio/PHPExcel.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 1
+[17-Mar-2017 08:14:38 UTC] PHP Warning:  include(): Failed opening 'biblio/PHPExcel.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 1
+[17-Mar-2017 08:14:38 UTC] PHP Fatal error:  Class 'PHPExcel' not found in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 7
+[17-Mar-2017 08:15:56 UTC] PHP Warning:  include(/home/myupmupm/public_html/crmbiblio/Classes/PHPExcel.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 1
+[17-Mar-2017 08:15:56 UTC] PHP Warning:  include(): Failed opening '/home/myupmupm/public_html/crmbiblio/Classes/PHPExcel.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 1
+[17-Mar-2017 08:15:56 UTC] PHP Fatal error:  Class 'PHPExcel' not found in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 7
+[17-Mar-2017 08:16:28 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32 bytes) in /home/myupmupm/public_html/crm/content/vues/admin/export.php on line 172
+[17-Mar-2017 08:19:26 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32 bytes) in /home/myupmupm/public_html/crm/content/lib/PHPExcel/Cell.php on line 586
+[17-Mar-2017 08:20:05 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 32 bytes) in /home/myupmupm/public_html/crm/content/lib/PHPExcel/Worksheet.php on line 1338
+[17-Mar-2017 10:05:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myupmupm/public_html/crm/content/lib/PHPExcel/Worksheet.php on line 1148
+[17-Mar-2017 10:05:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myupmupm/public_html/crm/content/lib/PHPExcel/Worksheet.php on line 1148
+[17-Mar-2017 10:08:33 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/myupmupm/public_html/crm/content/lib/PHPExcel.php on line 1124

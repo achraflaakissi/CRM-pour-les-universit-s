@@ -1,0 +1,249 @@
+[07-Jul-2017 17:21:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/index.php:9
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 9
+[08-Jul-2017 11:15:58 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[08-Jul-2017 11:15:58 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[08-Jul-2017 11:15:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/index.php:9
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 9
+[08-Jul-2017 11:17:41 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[08-Jul-2017 11:17:41 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[08-Jul-2017 11:17:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/index.php:9
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 9
+[10-Jul-2017 07:43:50 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[10-Jul-2017 07:43:50 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[10-Jul-2017 07:43:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/index.php:9
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 9
+[10-Jul-2017 07:44:55 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[10-Jul-2017 07:44:55 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[10-Jul-2017 07:44:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/index.php:9
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 9
+[10-Jul-2017 07:46:29 UTC] PHP Warning:  include(content/config.php): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[10-Jul-2017 07:46:29 UTC] PHP Warning:  include(): Failed opening 'content/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/myupmupm/public_html/crm/pointage/index.php on line 3
+[10-Jul-2017 07:46:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/index.php:9
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(9): PDO->__construct('mysql:host=;dbn...', NULL, NULL, Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 9
+[10-Jul-2017 07:47:48 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;C:/Users/ELMAHMOUDI/Documents/pointage.xml&quot; in /home/myupmupm/public_html/crm/pointage/index.php on line 20
+[10-Jul-2017 07:52:53 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;C:/Users/ELMAHMOUDI/Documents/pointage.xml&quot; in /home/myupmupm/public_html/crm/pointage/index.php on line 20
+[10-Jul-2017 07:53:55 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;C:/Users/ELMAHMOUDI/Documents/pointage.xml&quot; in /home/myupmupm/public_html/crm/pointage/index.php on line 20
+[10-Jul-2017 07:55:47 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;C:/Users/ELMAHMOUDI/Documents/pointage.xml&quot; in /home/myupmupm/public_html/crm/pointage/index.php on line 20
+[10-Jul-2017 07:57:23 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;C:/Users/ELMAHMOUDI/Documents/pointage.xml&quot; in /home/myupmupm/public_html/crm/pointage/index.php on line 20
+[10-Jul-2017 07:57:37 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;C:/Users/ELMAHMOUDI/Documents/pointage.xml&quot; in /home/myupmupm/public_html/crm/pointage/index.php on line 20
+[10-Jul-2017 07:59:20 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;C:/Users/ELMAHMOUDI/Documents/pointage.xml&quot; in /home/myupmupm/public_html/crm/pointage/index.php on line 20
+[10-Jul-2017 08:27:16 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;C:/Users/ELMAHMOUDI/Documents/pointage.xml&quot; in /home/myupmupm/public_html/crm/pointage/index.php on line 20
+[10-Jul-2017 08:29:48 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;C:/Users/ELMAHMOUDI/Documents/pointage.xml&quot; in /home/myupmupm/public_html/crm/pointage/index.php on line 20
+[10-Jul-2017 08:29:48 UTC] PHP Warning:  file_get_contents(C:/Users/ELMAHMOUDI/Documents/pointage.xml): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 22
+[10-Jul-2017 11:04:08 UTC] PHP Warning:  get_browser(): browscap ini directive not set in /home/myupmupm/public_html/crm/pointage/index.php on line 18
+[11-Jul-2017 15:31:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/myupmupm/public_html/crm/pointage/index.php:18
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(18): PDO->query('update pointage...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 18
+[11-Jul-2017 15:37:19 UTC] PHP Warning:  get_browser(): browscap ini directive not set in /home/myupmupm/public_html/crm/pointage/index.php on line 19
+[11-Jul-2017 15:46:02 UTC] PHP Warning:  get_browser(): browscap ini directive not set in /home/myupmupm/public_html/crm/pointage/index.php on line 19
+[11-Jul-2017 15:46:49 UTC] PHP Warning:  get_browser(): browscap ini directive not set in /home/myupmupm/public_html/crm/pointage/index.php on line 19
+[11-Jul-2017 15:46:49 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 21
+[11-Jul-2017 15:47:00 UTC] PHP Warning:  get_browser(): browscap ini directive not set in /home/myupmupm/public_html/crm/pointage/index.php on line 19
+[11-Jul-2017 15:47:00 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 21
+[11-Jul-2017 15:47:08 UTC] PHP Warning:  get_browser(): browscap ini directive not set in /home/myupmupm/public_html/crm/pointage/index.php on line 19
+[11-Jul-2017 15:47:08 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 21
+[11-Jul-2017 15:47:19 UTC] PHP Warning:  get_browser(): browscap ini directive not set in /home/myupmupm/public_html/crm/pointage/index.php on line 19
+[11-Jul-2017 15:47:19 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 21
+[11-Jul-2017 15:47:46 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 21
+[14-Jul-2017 07:51:47 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 21
+[14-Jul-2017 08:08:46 UTC] PHP Warning:  get_browser(): browscap ini directive not set in /home/myupmupm/public_html/crm/pointage/index.php on line 19
+[14-Jul-2017 08:41:01 UTC] PHP Warning:  file_get_contents(home/public_html/crm/composer.json): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 18
+[14-Jul-2017 08:41:29 UTC] PHP Warning:  file_get_contents(home/public_html1/crm/composer.json): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 18
+[14-Jul-2017 08:43:27 UTC] PHP Warning:  file_get_contents(home/public_html/outfile.csv): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 18
+[14-Jul-2017 08:43:44 UTC] PHP Warning:  file_get_contents(public_html/outfile.csv): failed to open stream: No such file or directory in /home/myupmupm/public_html/crm/pointage/index.php on line 18
+[14-Jul-2017 09:17:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'login' in 'where clause'' in /home/myupmupm/public_html/crm/pointage/index.php:112
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(112): PDO->query('select * from p...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 112
+[14-Jul-2017 09:19:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/myupmupm/public_html/crm/pointage/index.php:112
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(112): PDO->query('select * from p...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 112
+[14-Jul-2017 09:21:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/myupmupm/public_html/crm/pointage/index.php:112
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(112): PDO->query('select * from p...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 112
+[14-Jul-2017 09:23:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/myupmupm/public_html/crm/pointage/index.php:112
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(112): PDO->query('select * from p...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 112
+[14-Jul-2017 09:26:16 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 130
+[14-Jul-2017 09:26:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/myupmupm/public_html/crm/pointage/index.php:131
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(131): PDO->query('update pointage...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 131
+[14-Jul-2017 09:27:17 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 130
+[14-Jul-2017 09:28:13 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 130
+[14-Jul-2017 09:30:35 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 130
+[14-Jul-2017 10:17:47 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 132
+[14-Jul-2017 10:37:17 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 127
+[14-Jul-2017 10:39:12 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 128
+[14-Jul-2017 10:43:14 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 128
+[14-Jul-2017 10:49:03 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 148
+[14-Jul-2017 10:49:03 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 131
+[14-Jul-2017 10:49:29 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 10:51:20 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 10:51:44 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 10:51:47 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 10:52:54 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 148
+[14-Jul-2017 10:52:54 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 131
+[14-Jul-2017 10:53:03 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 10:55:12 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 148
+[14-Jul-2017 10:55:12 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 131
+[14-Jul-2017 10:55:28 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 10:56:13 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 10:57:19 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 148
+[14-Jul-2017 10:57:19 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 131
+[14-Jul-2017 10:57:37 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:08:16 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:08:49 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 148
+[14-Jul-2017 11:08:49 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 131
+[14-Jul-2017 11:09:06 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:10:36 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 148
+[14-Jul-2017 11:10:36 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 131
+[14-Jul-2017 11:10:44 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:12:25 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:12:52 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:14:18 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:15:00 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 148
+[14-Jul-2017 11:15:11 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 131
+[14-Jul-2017 11:16:15 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 148
+[14-Jul-2017 11:16:33 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 131
+[14-Jul-2017 11:23:25 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:24:14 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:25:04 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:29:21 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:29:34 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:30:23 UTC] PHP Warning:  strtotime() expects parameter 2 to be long, string given in /home/myupmupm/public_html/crm/pointage/index.php on line 120
+[14-Jul-2017 11:37:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[14-Jul-2017 11:37:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/point.php:8
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/point.php(8): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/point.php on line 8
+[14-Jul-2017 11:40:00 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[14-Jul-2017 11:40:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/point.php:8
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/point.php(8): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/point.php on line 8
+[14-Jul-2017 14:54:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[14-Jul-2017 14:54:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/point.php:8
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/point.php(8): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/point.php on line 8
+[18-Jul-2017 13:14:13 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[18-Jul-2017 13:14:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[18-Jul-2017 13:14:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/point.php:8
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/point.php(8): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/point.php on line 8
+[19-Jul-2017 09:03:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and cookieset=1' at line 1' in /home/myupmupm/public_html/crm/pointage/index.php:40
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(40): PDO->query('select * from p...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 40
+[19-Jul-2017 09:12:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and 	cookieset =1' at line 1' in /home/myupmupm/public_html/crm/pointage/index.php:40
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(40): PDO->query('select * from p...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 40
+[19-Jul-2017 09:13:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and cookieset=1' at line 1' in /home/myupmupm/public_html/crm/pointage/index.php:40
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(40): PDO->query('select * from p...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 40
+[19-Jul-2017 09:18:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and cookieset=1' at line 1' in /home/myupmupm/public_html/crm/pointage/index.php:40
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(40): PDO->query('select * from p...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 40
+[19-Jul-2017 09:41:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOW(),1' at line 2' in /home/myupmupm/public_html/crm/pointage/index.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(150): PDO->query('INSERT INTO `po...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 150
+[19-Jul-2017 09:42:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOW(),1)' at line 2' in /home/myupmupm/public_html/crm/pointage/index.php:150
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/index.php(150): PDO->query('INSERT INTO `po...')
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/index.php on line 150
+[19-Jul-2017 09:53:02 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 153
+[19-Jul-2017 09:56:31 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 153
+[19-Jul-2017 10:13:23 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 153
+[19-Jul-2017 10:22:00 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 153
+[19-Jul-2017 10:23:46 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 151
+[19-Jul-2017 10:50:27 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/index.php on line 155
+[19-Jul-2017 10:59:10 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/cookie.php on line 3
+[19-Jul-2017 11:01:42 UTC] PHP Warning:  setcookie() expects parameter 2 to be string, array given in /home/myupmupm/public_html/crm/pointage/cookie.php on line 2
+[19-Jul-2017 11:59:03 UTC] PHP Warning:  Division by zero in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[19-Jul-2017 11:59:03 UTC] PHP Warning:  system(): Cannot execute a blank command in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[19-Jul-2017 11:59:03 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:3) in /home/myupmupm/public_html/crm/pointage/index.php on line 28
+[19-Jul-2017 12:00:26 UTC] PHP Warning:  Division by zero in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[19-Jul-2017 12:00:26 UTC] PHP Warning:  system(): Cannot execute a blank command in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[22-Jul-2017 15:58:08 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[22-Jul-2017 15:58:08 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[22-Jul-2017 15:58:12 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[22-Jul-2017 15:58:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[22-Jul-2017 15:58:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/point.php:8
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/point.php(8): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/point.php on line 8
+[23-Jul-2017 00:26:15 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[23-Jul-2017 00:26:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:17:41 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:17:41 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:20:58 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:20:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:21:04 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:21:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:21:10 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:21:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:21:19 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[26-Jul-2017 14:21:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[29-Jul-2017 04:37:02 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[29-Jul-2017 04:37:02 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[29-Jul-2017 04:37:04 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[29-Jul-2017 04:37:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[29-Jul-2017 04:37:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/point.php:8
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/point.php(8): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/point.php on line 8
+[29-Jul-2017 10:26:24 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[29-Jul-2017 10:26:24 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/index.php:2) in /home/myupmupm/public_html/crm/pointage/index.php on line 10
+[29-Jul-2017 10:26:25 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[29-Jul-2017 10:26:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/myupmupm/public_html/crm/pointage/point.php:2) in /home/myupmupm/public_html/crm/pointage/point.php on line 5
+[29-Jul-2017 10:26:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/myupmupm/public_html/crm/pointage/point.php:8
+Stack trace:
+#0 /home/myupmupm/public_html/crm/pointage/point.php(8): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 {main}
+  thrown in /home/myupmupm/public_html/crm/pointage/point.php on line 8
